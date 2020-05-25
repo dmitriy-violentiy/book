@@ -1408,7 +1408,7 @@ html, body {
   padding-top: 19px;
 }
 
-.menu h1 {
+.menu h1, .menu h2 {
   color: #ffffff;
   font-family: Damion;
   font-size: 50px;
@@ -1433,7 +1433,7 @@ html, body {
 }
 
 @media (max-width: 1200px) {
-  .header-menu span h1 {
+  .header-menu h2 span {
     font-size: 35px;
     margin-left: 0;
     padding-left: 20px;
@@ -1445,7 +1445,7 @@ html, body {
   }
 }
 @media (max-width: 980px) {
-  .header-menu span h1 {
+  .header-menu h2 span {
     font-size: 25px;
   }
 
@@ -1460,7 +1460,7 @@ html, body {
   }
 }
 @media (max-width: 580px) {
-  .menu span h1 {
+  .menu h2 span {
     font-size: 20px !important;
     padding-left: 0;
   }
