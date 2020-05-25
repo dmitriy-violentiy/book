@@ -362,7 +362,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 50px;
   top: 50%;
   transform: translate(0, -50%);
-  background: url("../../img/slider/arrow_left.png") 0 0/100% no-repeat;
+  background: url("../img/slider/arrow_left.png") 0 0/100% no-repeat;
   z-index: 2;
   transition: left 0.4s ease;
 }
@@ -379,7 +379,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 50px;
   top: 50%;
   transform: translate(0, -50%);
-  background: url("../../img/slider/arrow_right.png") 0 0/100% no-repeat;
+  background: url("../img/slider/arrow_right.png") 0 0/100% no-repeat;
   z-index: 2;
   transition: right 0.4s ease;
 }
@@ -477,7 +477,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .services-bg {
-  background-image: url(../../img/services/services-bg.jpg);
+  background-image: url(../img/services/services-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -641,7 +641,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .who-bg {
-  background-image: url(../../img/who/who-bg.jpg);
+  background-image: url(../img/who/who-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -864,7 +864,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .work-bg {
-  background-image: url(../../img/work/work-bg.jpg);
+  background-image: url(../img/work/work-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -979,7 +979,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url(../../img/work/icon-bg.png);
+  background-image: url(../img/work/icon-bg.png);
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0;
@@ -1085,7 +1085,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .contact-bg {
-  background-image: url(../../img/contact/contact-bg.jpg);
+  background-image: url(../img/contact/contact-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
