@@ -54,13 +54,13 @@ font-family: Lato-Black;
                 
                 <div class="slider">
                     <div class="slider__item">
-                        <img data-lazy="img/slider/1.jpg" alt="slide-1">
+                        <img src="img/slider/1.jpg" alt="slide-1">
                     </div>
                     <div class="slider__item">
-                        <img data-lazy="img/slider/2.jpg" alt="slide-2">
+                        <img src="img/slider/2.jpg" alt="slide-2">
                     </div>
                     <div class="slider__item">
-                        <img data-lazy="img/slider/3.jpg" alt="slide-3">
+                        <img src="img/slider/3.jpg" alt="slide-3">
                     </div>
                 </div> 
                 <div class="slider__dots"></div>
@@ -352,17 +352,21 @@ font-family: Lato-Black;
                     <div class="contact__ask">
                         <form action="#">
                             <div class="contact__inputs">
-                                <input placeholder="Name" id="form-name" type="text">
-                                <input placeholder="Lastname" id="form-lastname" type="text">
+                                <div id="form-name" class="contact__input">
+                                    <input placeholder="Name" type="text">
+                                </div>
+                                <div class="contact__input">
+                                    <input placeholder="Lastname" id="form-lastname" type="text">
+                                </div>
                             </div>
                             <div class="contact__textarea">
                                 <textarea placeholder="Message" id="form-message"></textarea>
                             </div>
+                            <div class="contact__button" data-aos="zoom-out">
+                                <button href="#">SEND</button>
+                            </div>
                         </form>
                     </div>
-                </div>
-                <div class="contact__button" data-aos="zoom-out">
-                    <a href="#">SEND</a>
                 </div>
             </div>
         </div>
